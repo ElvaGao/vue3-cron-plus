@@ -1,0 +1,70 @@
+{
+  "name": "vue3-cron-plus",
+  "version": "0.1.8",
+  "description": "Corn expression plugin based on vue3+elementPlus（基于vue3+elementplus+vue3-cron的corn表达式插件）",
+  "private": false,
+  "main": "dist/index.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name index packages/vue3-cron-plus/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "element-plus": "^2.3.1",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.20.2",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "webpack": "^5.76.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvaGao/vue3-cron-plus.git"
+  },
+  "author": "Elva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElvaGao/vue3-cron-plus/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "keywords": [
+    "vue3",
+    "vue3-cron",
+    "cron",
+    "element-plus",
+    "vue3-cron-plus"
+  ]
+}

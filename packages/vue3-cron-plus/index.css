@@ -1,0 +1,53 @@
+vue3-cron-plus-container .el-input-number__decrease,
+vue3-cron-plus-container .el-input-number__increase {
+  top: 2px !important;
+}
+vue3-cron-plus-container .language {
+  position: absolute;
+  right: 25px;
+  z-index: 1;
+}
+vue3-cron-plus-container .el-tabs {
+  box-shadow: none;
+}
+vue3-cron-plus-container .tabBody {
+  overflow: auto;
+}
+vue3-cron-plus-container .tabBody .el-row {
+  margin: 20px 0;
+}
+vue3-cron-plus-container .tabBody .el-row .long .el-select {
+  width: 350px;
+}
+vue3-cron-plus-container .tabBody .el-row .el-input-number {
+  width: 110px;
+}
+vue3-cron-plus-container .myScroller::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+vue3-cron-plus-container .myScroller::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: skyblue;
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.2) 75%,transparent 75%,transparent);
+}
+vue3-cron-plus-container .myScroller::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: #ededed;
+  border-radius: 10px;
+}
+vue3-cron-plus-container .bottom {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+vue3-cron-plus-container .bottom .value {
+  float: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+vue3-cron-plus-container .bottom .value span:nth-child(1) {
+  color: red;
+}
