@@ -1,12 +1,12 @@
 <template>
   <div class="cron">
     <h1>vue3-cron-plus例子</h1>
-    <el-popover :visible="state.cronPopover" width="500px">
+    <el-popover :visible="state.cronPopover" width="600px">
       <vue3CronPlus
         i18n="cn"
         @change="changeCron"
         @close="state.cronPopover = false"
-        max-height="400px"
+        max-height="200px"
       />
       <template #reference>
         <el-input
@@ -24,14 +24,12 @@ import { reactive,defineComponent } from 'vue'
 export default defineComponent ({
   name: "App",
   setup(){
-    console.log(111)
     const state = reactive({
       cronPopover: false,
       cron: ''
     })
     const changeCron = (val) => {
       if(typeof(val) !== 'string') return false
-      console.log(val)
       state.cron = val
     }
     const togglePopover = (bol) => {

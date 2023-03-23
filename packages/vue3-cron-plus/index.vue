@@ -10,7 +10,7 @@
         <el-tabs type="border-card">
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Seconds.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Seconds.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -68,7 +68,7 @@
             </el-tab-pane>
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Minutes.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Minutes.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -126,7 +126,7 @@
             </el-tab-pane>
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Hours.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Hours.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -184,7 +184,7 @@
             </el-tab-pane>
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Day.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Day.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -318,7 +318,7 @@
             </el-tab-pane>
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Month.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Month.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -377,7 +377,7 @@
             </el-tab-pane>
             <el-tab-pane>
                 <template #label>
-                    <span><i class="el-icon-date"></i> {{ state.text.Year.name }}</span>
+                    <span><el-icon><Calendar /></el-icon> {{ state.text.Year.name }}</span>
                 </template>
                 <div class="tabBody myScroller" :style="{ 'max-height': maxHeight }">
                     <el-row>
@@ -436,16 +436,16 @@
             </el-tab-pane>
         </el-tabs>
         <div class="bottom">
-            <div class="value">
-                <span> cron预览: </span>
+            <!-- <div class="value"> -->
+                <!-- <span> cron预览: </span> -->
                 <el-tag type="info">
                     {{ state.cron }}
                 </el-tag>
-            </div>
-            <div class="buttonDiv">
+            <!-- </div> -->
+            <!-- <div class="buttonDiv"> -->
                 <el-button type="primary" size="small" @click.stop="handleChange">{{ state.text.Save }}</el-button>
                 <el-button type="primary" size="small" @click="close">{{ state.text.Close }}</el-button>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </template>

@@ -6,24 +6,25 @@
 
 ## vue3-cron
 
-- 参考vue3-cron实现，修改了部分功能，修改了语法，加入了cron回显
+- 参考vue3-cron实现，修改了部分功能，修改了语法，加入了cron回显，修改了图标等
 
 ## 前提
 
 - Vue 3.0.0+
 - element-plus
+- @element-plus/icons-vue
 
 ## 使用
 
 ### 1. 安装
 
 ```
-npm  install vue3-cron-plus
+npm  install vue3-cron-plus @element-plus/icons-vue
 ```
 
 ### 2. 引入
 
-- 1. 先引入element-plus和相关样式，具体参考element-plus官网
+- 1. 先引入element-plus和@element-plus/icons-vue相关样式，具体参考element-plus官网
 
 - 2. 全局引入
 

@@ -1,6 +1,6 @@
 {
   "name": "vue3-cron-plus",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Corn expression plugin based on vue3+elementPlus（基于vue3+elementplus+vue3-cron的corn表达式插件）",
   "private": false,
   "main": "dist/index.umd.min.js",
@@ -15,6 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
     "core-js": "^3.8.3",
     "element-plus": "^2.3.1",
     "vue": "^3.2.13"
